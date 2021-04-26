@@ -1,0 +1,22 @@
+.skills {
+  position: relative;
+  background-color: $color-primary;
+  padding: 20rem 20rem 0 20rem;
+  display: flex;
+  justify-content: center;
+
+  @include respond(tab-land2) {
+    padding: 20rem 5rem 0 5rem;
+  }
+
+  @include respond(tab-port) {
+    display: flex;
+    flex-direction: column;
+    padding: 20rem;
+  }
+  @include respond(phone) {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+  }
+}

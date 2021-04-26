@@ -1,0 +1,59 @@
+.heading-primary {
+  font-size: 9rem;
+  color: $color-white;
+  text-transform: capitalize;
+  font-family: $font-primary;
+  font-weight: 600;
+  line-height: 13rem;
+  padding-right: 10vw;
+
+  span {
+    color: $color-secondary;
+
+    @include respond(phone) {
+      &:nth-of-type(2) {
+        font-size: 6rem;
+      }
+    }
+  }
+}
+
+.heading-secondary {
+  font-size: 6rem;
+  color: $color-primary;
+}
+
+.heading-tertiary {
+  font-size: 4rem;
+  font-weight: bold;
+  color: $color-primary;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  color: $color-tertiary;
+  text-transform: capitalize;
+}
+
+@include respond(tab-port) {
+  .heading-primary {
+    font-size: 9rem;
+    line-height: 12rem;
+  }
+
+  .heading-secondary {
+    font-size: 4.5rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3rem;
+  }
+}
+
+@include respond(phone) {
+  .heading-primary {
+    font-size: 6.5rem;
+    line-height: 8rem;
+  }
+}

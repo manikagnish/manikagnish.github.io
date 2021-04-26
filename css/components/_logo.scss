@@ -1,0 +1,13 @@
+.logo {
+  text-decoration: none;
+  color: $color-secondary;
+  font-family: $font-secondary;
+  font-weight: bold;
+  font-size: 2rem;
+
+  &::after {
+    content: "Agnish";
+    color: $color-white;
+    margin-left: 5px;
+  }
+}

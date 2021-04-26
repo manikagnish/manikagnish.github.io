@@ -1,0 +1,124 @@
+nav {
+  position: relative;
+  z-index: 999999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  background-color: $color-primary-dark;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+}
+
+.nav-links li a {
+  color: #fff;
+  font-size: 1.4rem;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-secondary;
+  }
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 2.5rem;
+  height: 2.5px;
+  background-color: rgba($color-white, 0.9);
+  margin: 5px;
+  transition: all 0.3s;
+}
+
+@include respond(tab-port) {
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+}
+
+@include respond(phone) {
+  body {
+    overflow-x: hidden;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-left: 5vw;
+  }
+
+  .nav-links {
+    position: absolute;
+    height: 90vh;
+    top: 8vh;
+    background-color: $color-primary-light;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+    display: block;
+    width: 100vw;
+    padding: 3rem;
+    text-align: center;
+    transition: all 0.3s;
+  }
+  .nav-links li:hover {
+    background-color: $color-primary;
+  }
+  .nav-links li a {
+    font-size: 2rem;
+  }
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-right: 5vw;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
