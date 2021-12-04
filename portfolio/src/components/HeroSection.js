@@ -20,7 +20,7 @@ export default function HeroSection() {
           </div>
         </div>
         <img
-          src="images/hero3.svg"
+          src="images/hero1.svg"
           alt="me"
           className="w-3/4 md:w-1/2 mt-12 md:mt-0 right-0 -z-1 mx-auto"
         />
