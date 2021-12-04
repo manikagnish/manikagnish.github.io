@@ -2,7 +2,7 @@ export default function HireMe() {
   return (
     <div
       id="hire"
-      class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-44 w-full"
     >
       <section class="w-full">
         <h2 id="hire" class="secondary-title">
@@ -68,7 +68,7 @@ export default function HireMe() {
                 <img
                   src="./images/github.svg"
                   alt="github"
-                  className="w-10 h-10 lg:w-12 lg:h-12"
+                  className="w-10 h-10 lg:w-14 lg:h-14"
                 />
               </a>
               {/* <!-- Twitter --> */}
@@ -76,7 +76,7 @@ export default function HireMe() {
                 <img
                   src="./images/twitter.svg"
                   alt="twitter"
-                  className="w-8 h-8 lg:w-12 lg:h-12"
+                  className="w-8 h-8 lg:w-11 lg:h-11"
                 />
               </a>
             </div>
