@@ -1,10 +1,14 @@
+import Navbar from "./components/Navbar";
+import HeroSection from "./components/HeroSection";
+import MyWork from "./components/MyWork";
+import HireMe from "./components/HireMe";
+import AboutMe from "./components/AboutMe";
+
 function App() {
   return (
-    <div>
-      <div className="border-4">
-        <h1>hello world</h1>
-      </div>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
