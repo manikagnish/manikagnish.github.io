@@ -17,13 +17,13 @@ export default function AboutMe() {
             best experience of the users visiting the site. I am proficient in
             figma and adobe XD.
           </p>
-          <h3 className="font-bold">Technologies I use</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full lg:w-3/5">
+          <h3 className="font-bold text-xl">Technologies I use</h3>
+          <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 w-full xl:w-4/5 2xl:3/5">
             <div className="container flex-col items-center justify-center">
               <img
                 src="./images/react.svg"
                 alt="project thumbnail"
-                className="w-20 lg:w-16 h-20 lg:h-16 object-cover"
+                className=" w-16  h-16 object-cover"
               />
               <p>React js</p>
             </div>
@@ -31,20 +31,24 @@ export default function AboutMe() {
               <img
                 src="./images/redux.svg"
                 alt="project thumbnail"
-                className="w-20 lg:w-16 h-20 lg:h-16 object-cover"
+                className=" w-16  h-16 object-cover"
               />
               <p>&nbsp; Redux</p>
             </div>
-            <img
-              src="./images/nextjs.svg"
-              alt="project thumbnail"
-              className="w-full lg:w-28 md:block h-16 lg:h-16 object-cover"
-            />
+            <div className="container flex-col items-center justify-center">
+              <img
+                src="./images/nextjs.svg"
+                alt="project thumbnail"
+                className=" w-28 md:block h-16 object-cover -ml-2"
+              />
+              <p>&nbsp; Next.js</p>
+            </div>
+
             <div className="container flex-col items-center justify-center">
               <img
                 src="./images/gatsby.svg"
                 alt="project thumbnail"
-                className="w-20 lg:w-16 md:block h-20 lg:h-16 object-cover"
+                className=" w-16 md:block h-16 object-cover"
               />
               <p>&nbsp;Gatsby</p>
             </div>
@@ -52,22 +56,28 @@ export default function AboutMe() {
               <img
                 src="./images/node.svg"
                 alt="project thumbnail"
-                className="w-20 lg:w-16 hidden md:block h-20 lg:h-16 object-cover"
+                className=" w-16  md:block  h-16 object-cover"
               />
               <p>&nbsp;Node js</p>
             </div>
+            <div className="container flex-col items-center justify-center">
+              <p className="text-2xl self-center h-12 mt-4 -ml-2">express</p>
+              <p>Express.js</p>
+            </div>
+            <div className="container flex-col items-center justify-center">
+              <img
+                src="./images/sass.svg"
+                alt="project thumbnail"
+                className=" w-16  md:block  h-16 object-cover"
+              />
+              <p>&nbsp; Sass</p>
+            </div>
 
-            <p className="text-2xl self-center">ExpressJs</p>
-            <img
-              src="./images/sass.svg"
-              alt="project thumbnail"
-              className="w-20 lg:w-16 hidden md:block h-20 lg:h-16 object-cover"
-            />
             <div className="container flex-col items-center justify-center">
               <img
                 src="./images/github.svg"
                 alt="project thumbnail"
-                className="w-20 lg:w-16 hidden md:block h-20 lg:h-16 object-cover"
+                className=" w-16  md:block  h-16 object-cover"
               />
               <p>&nbsp; Github</p>
             </div>
