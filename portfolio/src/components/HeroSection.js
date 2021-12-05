@@ -2,7 +2,7 @@ import DottedNav from "./DottedNav";
 
 export default function HeroSection() {
   return (
-    <div className="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div className="container mt-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
       <div className="flex flex-wrap md:flex-nowrap">
         <DottedNav />
         <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
@@ -24,7 +24,7 @@ export default function HeroSection() {
         <img
           src="images/hero2.svg"
           alt="me"
-          className="w-3/4 md:w-1/2 mt-12 md:mt-0 right-0  mx-auto"
+          className="w-3/4 md:w-5/12 mt-12 md:mt-0 right-0  mx-auto"
         />
       </div>
     </div>
