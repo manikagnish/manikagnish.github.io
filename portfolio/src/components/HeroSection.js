@@ -10,12 +10,14 @@ export default function HeroSection() {
             Building
             <br /> beautiful web experiences.
           </h1>
-          <div class="w-full flex justify-center md:justify-start">
-            <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
-              <div>
-                <img src="./images/eye.svg" alt="eye" />
-              </div>
-              <span>View my work.</span>
+          <div className="w-full flex justify-center md:justify-start">
+            <button className="px-8 py-4 bg-theme text-white font-bold mt-12 ">
+              <a href="#work" className="flex items-center space-x-3">
+                <div>
+                  <img src="./images/eye.svg" alt="eye" />
+                </div>
+                <span>View my work.</span>
+              </a>
             </button>
           </div>
         </div>

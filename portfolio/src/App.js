@@ -24,7 +24,7 @@ function App() {
       ].classList.add("selected-circle");
   }
 
-  updateList();
+  // updateList();
   window.addEventListener("scroll", () => {
     updateList();
   });
@@ -33,6 +33,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <MyWork />
+      <AboutMe />
       <HireMe />
     </>
   );
