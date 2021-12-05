@@ -94,12 +94,12 @@ export default function MyWork() {
           </a>
 
           <a
-            href="http://www.manikagnish.com/ticTacToe"
+            href="http://www.manikagnish.com/hivecoin"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src="https://images.unsplash.com/photo-1603969072881-b0fc7f3d77d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80s"
+              src="./images/hivecoin.png"
               alt="project thumbnail"
               className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
             />
