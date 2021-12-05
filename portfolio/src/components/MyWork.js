@@ -14,31 +14,41 @@ export default function MyWork() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-          <img
-            src="./images/blogr.jpg"
-            alt="project thumbnail"
-            className="w-full bg-nav h-36 lg:h-72 object-cover"
-          />
-          <img
-            src="./images/sneakers.jpg"
-            alt="project thumbnail"
-            className="w-full bg-nav h-36 lg:h-72 object-cover"
-          />
-          <img
-            src="./images/huddle.jpg"
-            alt="project thumbnail"
-            className="w-full md:block bg-nav h-36 lg:h-72 object-cover"
-          />
-          <img
-            src="./images/themeswithcer.jpg"
-            alt="project thumbnail"
-            className="w-full md:block bg-nav h-36 lg:h-72 object-cover"
-          />
-          <img
-            src="https://images.unsplash.com/photo-1547119957-637f8679db1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-            alt="project thumbnail"
-            className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-          />
+          <a target="_blank" href="/blogr-landing-page">
+            <img
+              src="./images/blogr.jpg"
+              alt="project thumbnail"
+              className="w-full bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
+          <a href="/ecommerce-product-page">
+            <img
+              src="./images/sneakers.jpg"
+              alt="project thumbnail"
+              className="w-full bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
+          <a href="/huddle-landing-page">
+            <img
+              src="./images/huddle.jpg"
+              alt="project thumbnail"
+              className="w-full md:block bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
+          <a href="/theme-swithcer">
+            <img
+              src="./images/themeswithcer.jpg"
+              alt="project thumbnail"
+              className="w-full md:block bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
+          <a href="/breakout">
+            <img
+              src="./images/breakout.png"
+              alt="project thumbnail"
+              className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
           <img
             src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80"
             alt="project thumbnail"

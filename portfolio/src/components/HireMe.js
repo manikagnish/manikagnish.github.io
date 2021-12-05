@@ -76,7 +76,7 @@ export default function HireMe() {
                 <img
                   src="./images/twitter.svg"
                   alt="twitter"
-                  className="w-8 h-8 lg:w-11 lg:h-11"
+                  className="w-10 h-10 lg:w-12 lg:h-12"
                 />
               </a>
             </div>

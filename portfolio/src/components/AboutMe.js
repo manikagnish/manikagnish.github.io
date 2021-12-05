@@ -4,7 +4,7 @@ export default function AboutMe() {
       id="about"
       className="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-44 w-full"
     >
-      <section className="w-full flex items-start">
+      <section className="w-full  md:flex -flex-row items-start">
         <div className="container">
           <h2 id="work" className="secondary-title">
             About me
@@ -18,7 +18,7 @@ export default function AboutMe() {
             figma and adobe XD.
           </p>
           <h3 className="font-bold">Technologies I use</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-3/5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6 w-full lg:w-3/5">
             <div className="container flex-col items-center justify-center">
               <img
                 src="./images/react.svg"
