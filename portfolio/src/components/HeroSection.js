@@ -6,7 +6,7 @@ export default function HeroSection() {
       <div className="flex flex-wrap md:flex-nowrap">
         <DottedNav />
         <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
-          <h1 className="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">
+          <h1 className="font-bold text-5xl md:text-6xl lg:text-6xl xl:text-7xl text-center md:text-left">
             Building
             <br /> beautiful web experiences.
           </h1>
@@ -22,9 +22,11 @@ export default function HeroSection() {
         <img
           src="images/hero1.svg"
           alt="me"
-          className="w-3/4 md:w-1/2 mt-12 md:mt-0 right-0 -z-1 mx-auto"
+          className="w-3/4 md:w-1/2 mt-12 md:mt-0 right-0  mx-auto"
         />
       </div>
     </div>
   );
 }
+
+// improvent needed for screen width 1000 to 1300

@@ -1,6 +1,6 @@
 export default function DottedNav() {
   return (
-    <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+    <nav className="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden lg:block">
       <div className="absolute left-50 transform -trasnlate-x-1/2 space-y-6 mt-36">
         <a
           href="/#"
