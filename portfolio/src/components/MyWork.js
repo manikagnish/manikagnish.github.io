@@ -66,7 +66,7 @@ export default function MyWork() {
             <img
               src="./images/breakout.png"
               alt="project thumbnail"
-              className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
+              className="w-full hidden md:block bg-nav h-36 lg:h-72 "
             />
           </a>
           <a
@@ -75,7 +75,7 @@ export default function MyWork() {
             rel="noreferrer"
           >
             <img
-              src="https://images.unsplash.com/photo-1559028012-481c04fa702d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1336&q=80"
+              src="./images/blog-site"
               alt="project thumbnail"
               className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
             />
