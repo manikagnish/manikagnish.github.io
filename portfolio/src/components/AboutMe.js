@@ -84,9 +84,9 @@ export default function AboutMe() {
           </div>
         </div>
         <img
-          src="./images/profile.jpeg"
+          src="./images/profile3.png"
           alt="profile"
-          className="w-3/4 md:w-1/4 mt-16 right-0  mx-auto rounded-sm "
+          className="w-4/5 md:w-2/5 mt-16 right-0  mx-auto rounded-sm "
         />
       </section>
     </div>

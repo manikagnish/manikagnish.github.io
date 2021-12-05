@@ -56,7 +56,11 @@ export default function HireMe() {
             {/* <!-- Socials --> */}
             <div className="flex mt-20 space-x-6 items-center">
               {/* <!-- linkedin --> */}
-              <a href="https://www.linkedin.com/in/manik-agnish-7765671b6/">
+              <a
+                href="https://www.linkedin.com/in/manik-agnish-7765671b6/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src="./images/linkedin.svg"
                   alt="linkedin"
@@ -64,7 +68,11 @@ export default function HireMe() {
                 />
               </a>
               {/* <!-- github --> */}
-              <a href="https://github.com/manikagnish">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/manikagnish"
+              >
                 <img
                   src="./images/github.svg"
                   alt="github"
@@ -72,14 +80,22 @@ export default function HireMe() {
                 />
               </a>
               {/* <!-- Twitter --> */}
-              <a href="https://twitter.com/AgnishManik">
+              <a
+                href="https://twitter.com/AgnishManik"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src="./images/twitter.svg"
                   alt="twitter"
                   className="w-10 h-10 lg:w-12 lg:h-12"
                 />
               </a>
-              <a href="https://www.codewars.com/users/manikagnish">
+              <a
+                href="https://www.codewars.com/users/manikagnish"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   src="./images/codewars.svg"
                   alt="codewars"
