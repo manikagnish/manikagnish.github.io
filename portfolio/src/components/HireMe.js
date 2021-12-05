@@ -68,7 +68,7 @@ export default function HireMe() {
                 <img
                   src="./images/github.svg"
                   alt="github"
-                  className="w-10 h-10 lg:w-14 lg:h-14"
+                  className="w-10 h-10 lg:w-12 lg:h-12 -mt-1"
                 />
               </a>
               {/* <!-- Twitter --> */}
@@ -76,6 +76,13 @@ export default function HireMe() {
                 <img
                   src="./images/twitter.svg"
                   alt="twitter"
+                  className="w-10 h-10 lg:w-12 lg:h-12"
+                />
+              </a>
+              <a href="https://www.codewars.com/users/manikagnish">
+                <img
+                  src="./images/codewars.svg"
+                  alt="codewars"
                   className="w-10 h-10 lg:w-12 lg:h-12"
                 />
               </a>
