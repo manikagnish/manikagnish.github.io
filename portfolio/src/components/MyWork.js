@@ -75,9 +75,21 @@ export default function MyWork() {
             rel="noreferrer"
           >
             <img
-              src="./images/blog-site"
+              src="./images/blog-site.png"
               alt="project thumbnail"
               className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
+            />
+          </a>
+
+          <a
+            href="http://www.manikagnish.com/natours"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="./images/natours.png"
+              alt="project thumbnail"
+              className="w-full hidden md:block bg-nav h-36 lg:h-72"
             />
           </a>
 
@@ -93,17 +105,6 @@ export default function MyWork() {
             />
           </a>
 
-          <a
-            href="http://www.manikagnish.com/ticTacToe"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src="https://images.unsplash.com/photo-1618761714954-0b8cd0026356?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-              alt="project thumbnail"
-              className="w-full hidden md:block bg-nav h-36 lg:h-72 object-cover"
-            />
-          </a>
           <a
             href="http://www.manikagnish.com/ticTacToe"
             target="_blank"
