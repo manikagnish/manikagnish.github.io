@@ -23,6 +23,15 @@ body {
   z-index: -1;
 }
 
+.go-left {
+  @apply left-0
+  flex flex-col md:hidden   justify-evenly  items-center min-h-screen w-full bg-body absolute top-0  text-3xl;
+}
+
+.go-right {
+  @apply right-full flex flex-col md:hidden   justify-evenly  items-center min-h-screen w-full bg-body absolute top-0  text-3xl;
+}
+
 .secondary-title {
   @apply text-3xl font-bold;
 }
