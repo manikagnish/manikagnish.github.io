@@ -62,6 +62,7 @@ export default function Navbar() {
             onClick={() => {
               setMenu(true);
             }}
+            className={menu ? "hidden" : "visible"}
           />
         </div>
 

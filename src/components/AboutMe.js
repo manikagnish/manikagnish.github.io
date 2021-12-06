@@ -14,8 +14,8 @@ export default function AboutMe() {
             over 2+ years of experience. I have worked extensively on creating
             inspiring web experiences. I am proficient in JavaScript and its
             libraries like React JS. I create professional UI/UX designs for the
-            best experience of the users visiting the site. I am proficient in
-            figma and adobe XD.
+            best experience of the users visiting the site. I work with tools
+            like figma, adobe XD and photoshop.
           </p>
           <h3 className="font-bold text-xl">Technologies I use</h3>
           <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 w-full xl:w-4/5 2xl:3/5">
@@ -86,7 +86,7 @@ export default function AboutMe() {
         <img
           src="./images/profile5.png"
           alt="profile"
-          className="w-4/5 md:w-2/5 mt-16 right-0  mx-auto rounded-sm "
+          className="w-11/12 md:w-2/5 mt-16 right-0  mx-auto rounded-sm "
         />
       </section>
     </div>
