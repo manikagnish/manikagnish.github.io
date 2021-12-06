@@ -11,11 +11,9 @@ function App() {
 
   useEffect(() => {
     setLoading(true);
-    window.addEventListener("load", () => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
-    });
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
   }, []);
 
   function updateList() {
@@ -45,16 +43,16 @@ function App() {
     <>
       {loading ? (
         <div className="h-90v w-full flex justify-center items-center">
-          <HashLoader color={"#3f3fff"} loading={loading} size={100} />
+          <HashLoader color={"#3f3fff"} loading={loading} size={150} />
         </div>
       ) : (
-        <>
+        <div className="relative">
           <Navbar />
           <HeroSection />
           <MyWork />
           <AboutMe />
           <HireMe />
-        </>
+        </div>
       )}
     </>
   );

@@ -2,7 +2,7 @@ import DottedNav from "./DottedNav";
 
 export default function HeroSection() {
   return (
-    <div className="container mt-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+    <div className="container mt-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full overflow-x-hidden">
       <div className="flex flex-wrap md:flex-nowrap">
         <DottedNav />
         <div className="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36">
