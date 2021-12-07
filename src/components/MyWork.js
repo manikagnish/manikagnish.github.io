@@ -117,6 +117,18 @@ export default function MyWork() {
             />
           </a>
         </div>
+
+        <div className="mx-auto text-center md:mt-12">
+          <a
+            href="https://manikagnish.com/projects"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-6 py-2 bg-theme text-white font-bold">
+              View more
+            </button>
+          </a>
+        </div>
       </section>
     </div>
   );

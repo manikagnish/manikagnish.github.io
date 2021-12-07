@@ -26,11 +26,11 @@ body {
 
 .go-left {
   @apply transform translate-x-0 left-0
-  flex flex-col md:hidden   justify-evenly  items-center min-h-screen w-full bg-body absolute top-0  text-3xl transition duration-1000 ease-in-out;
+  flex flex-col md:hidden justify-center items-center min-h-screen w-full bg-body absolute top-0  text-3xl transition duration-1000 ease-in-out;
 }
 
 .go-right {
-  @apply transform translate-x-full flex flex-col md:hidden   justify-evenly  items-center min-h-screen w-full bg-body absolute top-0  text-3xl transition duration-1000 ease-in-out;
+  @apply transform translate-x-full flex flex-col md:hidden   justify-center  items-center min-h-screen w-full bg-body absolute top-0  text-3xl transition duration-1000 ease-in-out;
 }
 
 .secondary-title {

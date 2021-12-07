@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className={menu ? "go-left" : "go-right"}>
           <a
             href="/"
-            className="text-selected-text"
+            className="text-selected-text mb-12 -mt-8"
             onClick={() => {
               setMenu(false);
             }}
@@ -34,6 +34,7 @@ export default function Navbar() {
             onClick={() => {
               setMenu(false);
             }}
+            className="mb-12"
           >
             My work
           </a>
@@ -42,6 +43,7 @@ export default function Navbar() {
             onClick={() => {
               setMenu(false);
             }}
+            className="mb-12"
           >
             About me
           </a>
