@@ -46,12 +46,12 @@ export const projectInfo = [
   },
   {
     id: 6,
-    title: "breakout",
-    thumbnail: "./images/breakout.png",
+    title: "country-search-app",
+    thumbnail: "./images/country-search-app.jpg",
     description:
-      "Built breakout game using vanilla javascript, localStorage, and canvas api.",
-    github: "https://github.com/manikagnish/breakout",
-    website: "https://manikagnish.com/breakout/",
+      "REST Countries API with color theme switcher challenge hub. Using react.js, axios and tailwind.",
+    github: "https://github.com/manikagnish/country-search-app",
+    website: "https://manikagnish.com/country-search-app/",
   },
   {
     id: 7,
@@ -64,20 +64,20 @@ export const projectInfo = [
   },
   {
     id: 8,
-    title: "huddle landing page",
-    thumbnail: "./images/huddle.jpg",
+    title: "todo-list-app",
+    thumbnail: "./images/todo-list-app.jpg",
     description:
-      "UI for a crypto wallet, hivecoin, using react js, scss, reactstrap and react router.",
-    github: "https://github.com/manikagnish/huddle-landing-page",
-    website: "https://manikagnish.com/huddle-landing-page",
+      "Created a todo list app using cra-5, context api, useReducer, beautiful dnd, localStorage and tailwind.",
+    github: "https://github.com/manikagnish/todo-list-app",
+    website: "https://manikagnish.com/todo-list-app",
   },
   {
     id: 9,
-    title: "tic tac toe",
-    thumbnail:
-      "https://images.unsplash.com/photo-1545235617-7a424c1a60cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80",
-    description: "tic tac toe game using vanilla javascript.",
-    github: "https://github.com/manikagnish/ticTacToe",
-    website: "https://manikagnish.com/ticTacToe/",
+    title: "breakout",
+    thumbnail: "./images/breakout.png",
+    description:
+      "Built breakout game using vanilla javascript, localStorage, and canvas api.",
+    github: "https://github.com/manikagnish/breakout",
+    website: "https://manikagnish.com/breakout",
   },
 ];

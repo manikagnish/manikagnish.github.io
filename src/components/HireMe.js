@@ -97,6 +97,30 @@ export default function HireMe() {
                     className="w-10 h-10 lg:w-12 lg:h-12"
                   />
                 </a>
+                {/* <!-- Twitter --> */}
+                <a
+                  href="https://twitter.com/agnish_manik"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="./images/twitter.svg"
+                    alt="twitter"
+                    className="w-10 h-10 lg:w-12 lg:h-12"
+                  />
+                </a>
+                {/* <!-- instagram --> */}
+                <a
+                  href="https://www.instagram.com/agnishmanik/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    src="./images/instagram.svg"
+                    alt="instagram"
+                    className="w-10 h-10 lg:w-12 lg:h-12"
+                  />
+                </a>
                 {/* <!-- github --> */}
                 <a
                   target="_blank"
@@ -107,29 +131,6 @@ export default function HireMe() {
                     src="./images/github.svg"
                     alt="github"
                     className="w-10 h-10 lg:w-12 lg:h-12 -mt-1"
-                  />
-                </a>
-                {/* <!-- Twitter --> */}
-                <a
-                  href="https://twitter.com/AgnishManik"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="./images/twitter.svg"
-                    alt="twitter"
-                    className="w-10 h-10 lg:w-12 lg:h-12"
-                  />
-                </a>
-                <a
-                  href="https://www.codewars.com/users/manikagnish"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="./images/codewars.svg"
-                    alt="codewars"
-                    className="w-10 h-10 lg:w-12 lg:h-12"
                   />
                 </a>
               </div>
