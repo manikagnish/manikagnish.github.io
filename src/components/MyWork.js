@@ -9,7 +9,7 @@ export default function MyWork() {
       thumbnail={project.thumbnail}
       description={project.description}
       github={project.github}
-      website={project.website}
+      website={project.website || ""}
       cardHide={index > 3 ? "hidden md:block" : ""}
     />
   ));

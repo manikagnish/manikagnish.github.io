@@ -31,15 +31,17 @@ export default function Card({
               <p className="m-0 text-center">Github repo</p>
             </a>
 
-            <a
-              href={website}
-              target="_blank"
-              rel="noreferrer"
-              className="flex flex-col items-center p-1 link"
-            >
-              <img src="./images/external-link.svg" alt="link to website" />
-              <p className="m-0 text-center">live website</p>
-            </a>
+            {website && (
+              <a
+                href={website}
+                target="_blank"
+                rel="noreferrer"
+                className="flex flex-col items-center p-1 link"
+              >
+                <img src="./images/external-link.svg" alt="link to website" />
+                <p className="m-0 text-center">live website</p>
+              </a>
+            )}
           </div>
         </section>
       </div>

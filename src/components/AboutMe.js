@@ -46,11 +46,11 @@ export default function AboutMe() {
 
             <div className="container flex-col items-center justify-center">
               <img
-                src="./images/gatsby.svg"
+                src="./images/figma.svg"
                 alt="project thumbnail"
                 className=" w-16 md:block h-16 object-cover"
               />
-              <p>&nbsp;Gatsby</p>
+              <p>&nbsp;Figma</p>
             </div>
             <div className="container flex-col items-center justify-center">
               <img
