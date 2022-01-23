@@ -65,7 +65,7 @@ export const projectInfo = [
     title: "todo-list-app",
     thumbnail: "./images/todo-list-app.jpg",
     description:
-      "Created a todo list app using cra-5, context api, useReducer, beautiful dnd, localStorage and tailwind.",
+      "A todo list app using cra-5, context api, useReducer, beautiful dnd, localStorage and tailwind.",
     github: "https://github.com/manikagnish/todo-list-app",
     website: "https://manikagnish.com/todo-list-app",
   },

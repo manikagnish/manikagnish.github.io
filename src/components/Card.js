@@ -8,7 +8,7 @@ export default function Card({
 }) {
   return (
     <div
-      className={`card-container h-25 overflow-hidden relative bg-theme ${cardHide}`}
+      className={`card-container h-25 overflow-hidden md:text-xs 2xl:text-sm relative bg-theme ${cardHide}`}
     >
       <div className="w-full bg-theme translate-y-0 content">
         <section className="img-section h-25 w-full">
@@ -19,7 +19,7 @@ export default function Card({
           />
         </section>
         <section className="px-12 py-6 flex flex-col justify-center h-25 w-full">
-          <p className="m-0 mb-7">{description}</p>
+          <p className="m-0 mb-3">{description}</p>
           <div className="w-full flex justify-evenly items-center">
             <a
               href={github}
